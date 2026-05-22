@@ -2,7 +2,7 @@ let tableData = [];
 let visibleColumns = [];
 let sortDirection = {};
 
-fetch("sc.csv")
+fetch("output.csv")
   .then(response => response.text())
   .then(csv => {
 
